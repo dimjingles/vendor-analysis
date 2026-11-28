@@ -1,0 +1,387 @@
+row,vendor,description
+1,Salesforce Uk Ltd-Uk,"CRM platform used to manage sales pipeline, customer accounts and revenue operations."
+2,Navan (Tripactions Inc),Corporate travel booking and expense management platform (formerly TripActions); spend is mostly pass-through travel.
+3,Bdo Llp,"Audit, tax and accounting advisory firm."
+4,Tog Uk Properties Limited,The Office Group: London flexible/serviced office space provider.
+5,Cloudcrossing Bvba,"Belgian maker of PDF Butler, a document generation app for Salesforce (quotes, proposals, contracts)."
+6,Zagrebtower D.O.O.,Landlord of the Zagreb Tower office building (Zagreb office lease).
+7,Innovent Spaces Private Limited,Managed office / coworking space provider in India.
+8,Weking D.O.O.,Croatian company not confirmed from public sources; spend size suggests an office lease (site to be confirmed).
+9,Jensten Insurance Brokers,UK commercial insurance broker (business insurance policies).
+10,Gpt Space & Co,GPT Group's flexible workspace / coworking offices in Australia.
+11,Aetna Life And Casualty Ltd,International private health insurance for employees.
+12,Rsm Uk Corporate Finance Llp,Corporate finance / M&A transaction advisory.
+13,Amazon Web Services Llc,"Cloud infrastructure hosting (compute, storage, networking)."
+14,Telefonica Global Services Gmbh,Telefónica group procurement entity; fees charged to suppliers for doing business with Telefónica.
+15,Hr Solution International Gmbh,International payroll and employer-of-record (EOR) services.
+16,4I Advisory Services,"India-based accounting, tax, assurance and compliance advisory firm."
+17,Bisley Law Ltd,UK law firm providing legal services.
+18,Infosys,IT services and outsourced software development/consulting.
+19,Big Frontier Pty Ltd (Cult Of Monday),Australian firm trading as Cult of Monday; believed to be a Salesforce-ecosystem recruiter (unconfirmed).
+20,Harmonic Group Limited,UK recruitment agency specialising in finance and operations hires.
+21,Wework Singapore Pte. Ltd.,Coworking / flexible office space in Singapore.
+22,Cloud Technology Solutions Ltd,UK Google Cloud / Google Workspace reseller and services partner (CTS).
+23,"Navan, Inc",Corporate travel and expense platform (US entity of Navan).
+24,Tmforum,TM Forum: telecom industry association membership and events.
+25,Linkedin Ireland Limited,"LinkedIn Recruiter, job ads and Sales Navigator subscriptions."
+26,Kimble Applications Ltd,Salesforce-native professional services automation (PSA) software.
+27,Sage Uk Limited,Accounting / ERP software.
+28,Grant Thornton,"Audit, tax and advisory firm."
+29,"SveuäIliå¡Te U Zagrebu, Studentski Centar",University of Zagreb Student Centre: agency through which student workers are legally engaged and paid in Croatia.
+30,Ss&C Intralinks Inc,Virtual data room for M&A / due diligence.
+31,Veniture D.O.O.,Atlassian solution partner in Zagreb: Jira/Confluence licences and services.
+32,Accutrainee Limited,UK provider of flexible/seconded trainee solicitors.
+33,Mason Frank International Ltd,Recruitment agency specialising in Salesforce talent.
+34,"Houlihan Lokey Advisors, Llc",Investment bank providing M&A and financial advisory.
+35,Vector Capital Management Lp,Private equity firm (prior owner): management / monitoring fees and expense recharges.
+36,Hubspot Ireland Limited,Marketing automation and CRM software.
+37,Nefron - Obrt Za Poslovne Usluge,Croatian sole-proprietor business services contractor (specific service unconfirmed).
+38,"Planful, Inc.","Cloud FP&A (budgeting, planning and consolidation) software."
+39,Cognism Limited,B2B sales intelligence and contact data platform.
+40,Uberflip,Content experience platform for marketing content hubs.
+41,Agram Life Osiguranje D.O.O.,Croatian life / supplementary health insurance for employees.
+42,Google Ireland Limited,Google Workspace subscriptions billed directly by Google (may include Google Ads; confirm from invoice).
+43,Zuric I Partneri Odvjetnicko Drustvo D.O.O.,Croatian law firm (local counsel).
+44,Care Health Insurance Company Limited,Indian health insurer: group medical cover for India employees.
+45,New Star Networks(Nsn),UK business telecoms: connectivity and hosted voice.
+46,Bupa- Supplier,UK private medical insurance for employees.
+47,Shree Info System Solutions Pvt Ltd,Indian IT hardware and systems supplier.
+48,Technet It Recruitment,IT recruitment agency.
+49,Mightyhive Ltd,Digital marketing / ad-tech consultancy and media buying.
+50,Cedar Recruitment Ltd,UK finance and accountancy recruitment agency.
+51,Eurofast International Ltd-Greec,"Regional accounting, tax and payroll advisory firm (South-East Europe)."
+52,Hrvatski Telekom D.D.,Croatian telecom operator: internet and mobile services.
+53,Sodexo Svc India Private Limited,Employee meal vouchers / benefit cards in India.
+54,Peakon Aps,Employee engagement survey platform (Workday Peakon).
+55,Plus Your Business Ltd,UK Google-focused digital marketing and training consultancy.
+56,Benefit Systems D.O.O.,MultiSport card: employee fitness and wellness benefit in Croatia.
+57,Smart Group Services D.O.O.,Croatian business consulting / HR staffing services firm.
+58,Jones Lang Lasalle (Nsw) Pty Ltd,Commercial real estate services (leasing / property management) in Australia.
+59,"Workato, Inc.",Integration and workflow automation platform (iPaaS).
+60,Konzum Plus D.O.O.,Croatian supermarket chain: office pantry and supplies.
+61,Westbrook Advisers,UK solicitors' firm based in Newbury (SRA-regulated).
+62,Work Easy Space Solutions Private Limited,"Coworking / serviced office provider in Chennai, India."
+63,"Taxstudio, Ltd.",Tax advisory and compliance services.
+64,Pingo D.O.O.,Croatian supplier; nature of service could not be verified.
+65,Magazin Raunalni Sistemi D.O.O.,Croatian computer hardware and IT equipment reseller.
+66,Tp Prime D.O.O.,"Croatian accounting, bookkeeping and tax advisory firm."
+67,Granttree Limited,UK R&D tax credit and grant funding advisers.
+68,Cigna Sg,Health insurance for Singapore employees.
+69,Collards Chartered Accountants,UK chartered accountants.
+70,Bupa Australia,Health insurance for Australia-based employees (e.g. visa holders).
+71,4I Management Consulting Private Limited,"India-based management, accounting and compliance consulting (4i group)."
+72,"Grad Zagreb, Gradski Ured Za Prostorno Ureä‘Enje,..",City of Zagreb municipal office: local fees and communal charges.
+73,Bijeli Pijesak Obrt Za Poslovno Savjetovanje,Croatian sole-proprietor business consultant.
+74,Ramiro D.O.O.,"Croatian HR, organisational development and training consultancy."
+75,Visalogic Limited,UK immigration and visa services.
+76,Poles Ltd - Hanbury Manor,Hanbury Manor hotel and country club: offsite / event venue.
+77,Shoff Darby Companies,US insurance broker.
+78,Emerge Development Consultancy Ltd,UK leadership development and executive coaching consultancy.
+79,Performancepro,Employee performance management software.
+80,Microsoft Ireland Operations Limited,Microsoft 365 / Azure software subscriptions.
+81,Catering Muring,Catering service in Zagreb.
+82,Omonia D.O.O.,Croatian custom software development / IT services firm.
+83,Outreach Corporation,Sales engagement and sequencing platform.
+84,Cbre Limited,Commercial real estate services (UK).
+85,Studentski Centar - Split,Split Student Centre: agency for engaging student workers in Croatia.
+86,The Guardian,Newspaper: job advertising / subscription.
+87,Intertrust Singapore Corporate Services Pte Ltd - Csc,Corporate secretarial and entity management services in Singapore.
+88,Goto Technologies Uk Limited,GoTo Meeting / remote access software (formerly LogMeIn).
+89,Hrsolution International Ag,International payroll / EOR services (Swiss entity of HRsolution).
+90,Trello,Kanban-style project management tool (owned by Atlassian).
+91,Obrt Sjaj Sunca,Croatian sole-proprietor service business (likely office cleaning).
+92,Telefã³Nica Compras Electrã³Nicas S.L.,Telefónica's e-procurement marketplace (Adquira): supplier platform fees.
+93,Allianz Australia Workers' Compensation (Victoria) Limited,"Statutory workers' compensation insurance (Victoria, Australia)."
+94,Icici Lombard Gic Ltd,Indian general insurer: group health / accident cover.
+95,Mosaic Concept D.O.O.,"Croatian supplier: no public record matched, purpose unconfirmed."
+96,Limes Plus D.O.O.,Croatian catalogue supplier of office equipment and supplies.
+97,Mercer Limited,"HR, benefits and compensation consulting / brokerage."
+98,Acclime Corporate Services,"Corporate services in Asia-Pacific: company secretarial, accounting and compliance."
+99,Green Commute Initiative,UK cycle-to-work scheme provider.
+100,Tattu Manchester Limited,Restaurant in Manchester (team / client dinner).
+101,Athlete Service Ltd,UK online cycling retailer (likely cycle-to-work scheme purchases).
+102,Amazon Web Services Inc.,Cloud infrastructure (second AWS billing entity).
+103,Telemach Hrvatska D.O.O.,Croatian telecom operator: mobile / internet.
+104,"Acclime Usa, Inc","US corporate services: accounting, tax and compliance."
+105,Centar Za Sigurnost D.O.O.,Croatian workplace safety and security services (occupational safety compliance).
+106,Profi Bar D.O.O.,Croatian beverage / bar supplies provider.
+107,Pricewaterhousecoopers Llp,"Audit, tax and advisory firm."
+108,Pinnacle Partnership Ca,Chartered accountancy firm.
+109,The Virtual Legal Counsel Ltd,UK outsourced / fractional in-house legal counsel.
+110,Australian Payroll Professionals Pty Ltd,Outsourced payroll processing in Australia.
+111,Inter Continental Chennai Mahabalipuram Resort,Resort hotel near Chennai: company offsite venue.
+112,Jetbrains S.R.O.,"Developer IDEs and tools (IntelliJ, etc.)."
+113,Crowe Horwath Revizija D.O.O.,Croatian statutory audit firm.
+114,Puducherry Backwater Resort Private Limited,"Resort in Puducherry, India: team offsite venue."
+115,Orionw Llc,"US supplier: no public record matched, purpose unconfirmed."
+116,Adobe Systems Software,Creative and document software (Creative Cloud / Acrobat).
+117,"Common Desk, Llc",US coworking space provider.
+118,Hep Elektra D.O.O.,Croatian electricity utility.
+119,Zivi Napitak D.O.O.,Croatian beverage / water supplier for the office.
+120,Gym4You D.O.O.,Gym / fitness membership in Croatia.
+121,Aha! Labs Inc,Product roadmap and product management software.
+122,Apple Retail Uk Ltd,"Apple hardware purchases (laptops, phones, accessories)."
+123,"Kryterion, Inc.",Online certification exam delivery and proctoring platform.
+124,Npm Inc,JavaScript package registry: private packages.
+125,Pinsent Masons Mpillay Llp,Singapore law firm.
+126,Calm Achiever(A Unit Of Mohsin Ali Vakil),Indian productivity training firm (Getting Things Done and Holacracy coaching).
+127,Pluxee India Private Limited,Employee meal and benefit cards in India (formerly Sodexo Benefits).
+128,Oâ€™Donnell Salzano Lawyers,Australian law firm.
+129,Papertrail Inc,Cloud log management service (a SolarWinds product).
+130,Sniper Systems And Solutions Private Limited,Indian IT hardware reseller (Apple and others).
+131,Trocadero (London) Hotel Ltd,London hotel accommodation.
+132,Semrush Inc,SEO and search marketing analytics tool.
+133,Golubica Parking D.O.O.,Parking provider in Croatia.
+134,Vodafone (Australian),Mobile telecom services in Australia.
+135,Ikea Hrvatska D.O.O.,Furniture retailer: office furniture.
+136,Orcola D.O.O.,"Croatian supplier: no public record matched, purpose unconfirmed."
+137,Info Edge India Limited,"Operator of Naukri.com, India's job board."
+138,Grad Split,City of Split: municipal fees and communal charges.
+139,T-Mobile,Mobile telecom services.
+140,Akton D.O.O.,"Croatian supplier: no public record matched, purpose unconfirmed."
+141,Bureau Veritas Croatia D.O.O.,Certification and audit body (e.g. ISO 27001 / 9001 audits).
+142,Cici Prudential Life Insurance Co. Ltd.,ICICI Prudential: group life insurance for India employees.
+143,Ncc Services Limited,Software escrow services (NCC Group).
+144,Smartsheet Inc.,Spreadsheet-style project and work management tool.
+145,Good Game Global D.O.O.,Croatian esports / gaming event organiser (team-building).
+146,Garaå¾A Firule D.O.O.,Parking garage in Split.
+147,Crossland,"Supplier: no public record matched, purpose unconfirmed."
+148,It London,London IT support / supplies provider.
+149,Terrapinn Holdings Ltd,B2B conference and trade show organiser.
+150,Elemental Life Solutions Llp,Indian supplier (likely wellness / lifestyle services).
+151,United Flow Ltd (The Goodness Project),Vegan snack and gift boxes for employees.
+152,Mcburneys Charted Accountants,Chartered accountants.
+153,Cleverland Winery Resort,Winery resort: team offsite venue.
+154,Ag Grid Ltd,JavaScript data grid component: enterprise licence.
+155,Lusha,B2B contact data / sales prospecting tool.
+156,My Foodiverse Llp,Indian food / catering provider.
+157,4Imprint Direct Ltd,Promotional merchandise supplier.
+158,City Pantry Ltd,Office catering marketplace (UK).
+159,Stipe Piric,Individual payee (contractor or employee reimbursement).
+160,Office Move London,Office removals company.
+161,Pink Ribbon Shop,Breast cancer charity merchandise shop.
+162,Starhub Ltd (Supplier),Singapore telecom provider.
+163,N S Shastri And Co,Indian chartered accountancy firm (founder of 4i Advisory).
+164,John Smith,Individual payee (contractor or employee reimbursement).
+165,Fabiola Thistlewhaite,Individual payee (contractor or employee reimbursement).
+166,Hp Inc Uk Limited,Computer hardware and printers.
+167,Cision Pr Newswire,Press release distribution service.
+168,George Anchor,Individual payee (contractor or employee reimbursement).
+169,"Yoxel, Inc",Email and calendar sync tool for Salesforce.
+170,Grt Hotels And Resorts P Ltd,Indian hotel group: accommodation / events.
+171,Apple Pty Ltd,Apple hardware purchases (Australia).
+172,Slack Technologies Limited,Team messaging and collaboration platform.
+173,G S Notary Public Limited,Notary public services.
+174,Apple Distribution International Ltd,Apple hardware / software purchases (EU entity).
+175,Porezno Savjetniå¡Tvo Tuk D.O.O.,Croatian tax advisory firm.
+176,Susan Lee,Individual payee (contractor or employee reimbursement).
+177,Ansar Madovic,Individual payee (contractor or employee reimbursement).
+178,"Radius Group, Inc","US supplier: no public record matched, purpose unconfirmed."
+179,Aquila Remete D.O.O.,"Croatian supplier: no public record matched, purpose unconfirmed."
+180,Clime India Private Limited,"Indian supplier: no public record matched, purpose unconfirmed."
+181,"Golden Mean, Inc","US supplier: no public record matched, purpose unconfirmed."
+182,Paint & Fun Vl. Martina Milkova Nikolova,Painting workshop: team-building activity.
+183,Carrington Communications,PR and communications agency.
+184,Crayond Digital Private Limited,Indian digital product and marketing agency.
+185,Studentski Centar Karlovac,Karlovac Student Centre: agency for engaging student workers in Croatia.
+186,Lajnap Comedy Booking D.O.O.,Stand-up comedy booking agency: team event entertainment.
+187,British Telecommunications,UK telecom: broadband / phone lines.
+188,Etm Concessions Ltd,UK restaurant / hospitality group.
+189,Radisson Grt - Unit Of Hotels & Resorts Pvt Ltd,Radisson hotel in Chennai: accommodation.
+190,Ariba Inc,SAP Ariba supplier network: fees to transact with customers.
+191,Chamiers Recreation Club,Recreation club in Chennai: team event venue.
+192,Quadrant Law Llc,Singapore law firm.
+193,Docusign,Electronic signature software.
+194,Inside Edge Novated Leasing,Australian novated car leasing (salary packaging) provider.
+195,Rhea D.O.O.,"Croatian supplier: no public record matched, purpose unconfirmed."
+196,P S Recreation Club,Recreation club: team event venue.
+197,Fastspring,Merchant-of-record reseller: a third-party software purchase billed through FastSpring.
+198,Dsv Solutions A/S,Freight and logistics services.
+199,Curzon Green Solicitors,UK employment law solicitors.
+200,Icare Nsw,Statutory workers' compensation insurer (New South Wales).
+201,Thomas Mansfield Solicitors Limited,UK employment law solicitors.
+202,Amazon.Co.Uk,Online retail: office supplies and equipment.
+203,Backoffice Associates,Data migration and data management services (now Syniti).
+204,Oladi D.O.O.,"Croatian supplier: no public record matched, purpose unconfirmed."
+205,Integrated Personnel Services,Indian staffing and payroll outsourcing firm.
+206,Mãœller Trgovina Zagreb D.O.O.,Müller drugstore: office sundries.
+207,Lunch Nutrition D.O.O.,Meal delivery service in Croatia.
+208,Winmaxi Tours & Travels,Indian travel agency.
+209,Digitalna Produkcija J.D.O.O.,Croatian digital / video production studio.
+210,Computershare-Caboodle Technology Limited,Employee share plan / equity administration platform.
+211,Allianz Wa,Statutory workers' compensation insurance (Western Australia).
+212,Trending Technology Services Gmbh,Technical training provider (cloud / DevOps courses).
+213,"Godaddy.Com, Llc",Domain registration and web hosting.
+214,Time Out Group,Media and hospitality group (venue / event booking).
+215,Raiffeisenbank Austria D.D.,Croatian bank: banking fees and charges.
+216,Galop-Prijevoz D.O.O.,Croatian passenger transport / coach hire.
+217,Lane Ip Limited,UK intellectual property and trademark attorneys.
+218,Urbani Eventi D.O.O.,Croatian event organiser.
+219,Smashing Media Ag,Smashing Magazine: web design / dev conference and training.
+220,Epignosis Llc,TalentLMS: cloud learning management system.
+221,Croatia Airlines,Airline: flights booked directly.
+222,Bb Football Scouting J.D.O.O.,Croatian sports services company (team sports activity).
+223,Boe Croatia D.O.O.,"Croatian supplier: no public record matched, purpose unconfirmed."
+224,Potomac D.O.O.,"Croatian supplier: no public record matched, purpose unconfirmed."
+225,"President Hotel And Tower Co., Ltd",Hotel in Bangkok: accommodation.
+226,Friends Sports Club,Sports club: team activity venue.
+227,The Cycle Gap Adyar,Bicycle shop in Chennai.
+228,Apple - Amer,Apple hardware purchases (Americas).
+229,Klg - Kalra Legal Group,Indian law firm.
+230,Kilgannon & Partners Llp,UK employment law solicitors.
+231,Uk Postbox Limited,Virtual mail address and mail scanning service.
+232,Catering Iviä‡ D.O.O.,Catering service in Croatia.
+233,Blink Events,Event management company.
+234,Grafo-Jan,Croatian print shop.
+235,Mesa Verde,Restaurant (team meal).
+236,Pixsy Inc,Image copyright enforcement / licensing service.
+237,Dun & Bradstreet D.O.O.,Business credit reports and company data.
+238,Induslaw,Indian law firm.
+239,Trans-Agram Obrt Za Dostavu,Croatian delivery / courier service.
+240,Landu Law Solicitors,UK solicitors.
+241,Arena Center Zagreb D.O.O.,Zagreb shopping centre (gift vouchers).
+242,Obrt Za Ugostiteljstvo Mirakul,Croatian restaurant / hospitality business.
+243,Oakberry Jr D.O.O.,Açaí food outlet in Croatia.
+244,Tau On-Line D.O.O.,Croatian IT / cloud and web services provider.
+245,Magic Mountain Saloon,Restaurant / bar in Melbourne.
+246,Hotel Zonar,Hotel in Zagreb: accommodation.
+247,Roto Dinamic D.O.O.,Croatian beverage distributor: office drinks.
+248,Tm Forum,TM Forum: telecom industry association (duplicate record).
+249,Marvie Hotel - Krupa D.O.O.,Hotel in Split: accommodation.
+250,Merchandise Ltd,Branded merchandise supplier.
+251,Yellow Submarine D.O.O.,Burger restaurant chain in Croatia.
+252,Streamlinereforms Inc,"Supplier: no public record matched, purpose unconfirmed."
+253,Make And Grow Ltd,"UK supplier: no public record matched, purpose unconfirmed."
+254,Obiteljski Hoteli D.O.O.,Croatian hotel operator: accommodation.
+255,Rudan D.O.O.,"Croatian supplier: no public record matched, purpose unconfirmed."
+256,Entrio Tehnologije D.O.O.,Croatian event ticketing platform.
+257,Vivat Fina Vina D.O.O.,Croatian wine shop (gifts).
+258,"Figma, Inc.",Collaborative interface design tool.
+259,E-Disti D.O.O.,Croatian IT distribution / equipment supplier.
+260,Greencell Express Private Limited,Indian intercity electric bus operator (travel).
+261,Edwardian Pastoria Hotels Ltd (The Londoner),"The Londoner hotel, London: accommodation."
+262,Tiganda J.D.O.O.,"Croatian supplier: no public record matched, purpose unconfirmed."
+263,"Franklin, Gringer & Cohen, P.C.",US (New York) labour and employment law firm.
+264,Blitz - Cinestar D.O.O.,Cinema chain in Croatia (team event / vouchers).
+265,Lancefield Bus Service,Australian bus / coach hire.
+266,Super Odrediå¡Te D.O.O.,"Croatian supplier (likely travel / events), unconfirmed."
+267,Pmi Global Operations Center,Project Management Institute: memberships and PMP certification.
+268,Student Packers & Movers,Indian packing and moving service.
+269,Del Posto D.O.O.,Restaurant in Croatia.
+270,Inicijativa Centar Za Edukaciju,Croatian education and training centre (courses).
+271,Niva Transport J.D.O.O.,Croatian transport service.
+272,Doctor Anywhere Operations Pte Ltd,Singapore telehealth provider.
+273,Spar Hrvatska D.O.O.,Supermarket chain in Croatia: office pantry.
+274,Pepe'S Italian And Liquor,Italian restaurant in Melbourne.
+275,"Pluralsight, Llc",Online technology skills training platform.
+276,Maniax Melbourne Cbd,Axe-throwing venue: team-building.
+277,Dnsimple,DNS hosting and domain management.
+278,Treci Posao D.O.O.,"Croatian supplier: no public record matched, purpose unconfirmed."
+279,Gaucho Restaurants,Restaurant chain (UK).
+280,Formswift,Online document and form templates.
+281,Safestore Ltd,UK self-storage units.
+282,Split Tech City,Split tech community association: membership / sponsorship.
+283,National Securities Depository Limited(Nsdl),Indian securities depository: statutory share registry fees.
+284,Adamma Info Services Private Limited,"Indian supplier: no public record matched, purpose unconfirmed."
+285,The Riding House Cafe,Restaurant in London.
+286,Stillmark Zagreb D.O.O.,Maker of company stamps and seals.
+287,Lastpass Ireland Limited,Password manager.
+288,Taste Of Health,Health food outlet.
+289,Infodata,"Supplier: no public record matched, purpose unconfirmed."
+290,Amazon (Aus),Online retail: office supplies (Australia).
+291,Regency Hampers Ltd,Gift hampers.
+292,Bella Operation A/S,Bella Center Copenhagen: conference venue services.
+293,The Plant Man,Office plant supply and maintenance.
+294,Media Promo Plus D.O.O.,Croatian promotional products supplier.
+295,Expert-Ing D.O.O.,Croatian engineering / safety inspection services.
+296,Atlassian Pty Ltd,Jira / Confluence licences billed directly.
+297,Djs For U,DJ hire for events.
+298,Freepik Company,Stock images and graphics subscription.
+299,Nastavni Zavod Za Javno Zdravstvo Dr. Andrija Å Tampar,Zagreb public health institute: health checks / tests.
+300,Rishi Events And Entainment,Indian event and entertainment services.
+301,Kosmaz Technologies Croatia,"Croatian technology supplier: no public record matched, purpose unconfirmed."
+302,Dhl,Courier and express delivery.
+303,Hotel Laguna D.D.,Hotel in Croatia: accommodation.
+304,Bigshare Services Private Limited,Indian registrar and share transfer agent.
+305,Zettanet,Australian internet / hosting provider.
+306,Hahn Air,Airline ticketing carrier.
+307,Vitality Works,Australian workplace health provider (e.g. flu vaccinations).
+308,Avoxi Inc,Cloud virtual phone numbers / VoIP.
+309,Zapier Inc.,No-code workflow automation tool.
+310,"Solarwinds, Inc",IT monitoring and management software.
+311,Xenon Savjetovanje D.O.O.,"Croatian consulting firm: no public record matched, purpose unconfirmed."
+312,Floom Ltd,Online flower delivery.
+313,Notino S.R.O.,Online perfume and cosmetics retailer (gifts).
+314,"Paint&Wine, Vl. Stevo Dosen",Paint-and-wine workshop: team-building.
+315,Parcelforce Worldwide,UK parcel delivery.
+316,Advena,"Supplier: no public record matched, purpose unconfirmed."
+317,Hrvatski Nezavisnici Izvoznici Softvera,CISEx: Croatian Independent Software Exporters association membership.
+318,Monile J.D.O.O.,"Croatian supplier: no public record matched, purpose unconfirmed."
+319,Puzzle Promotion J.D.O.O.,Croatian promotional products supplier.
+320,ZagrebaäKi Holding D.O.O.,City of Zagreb utilities holding: waste collection and municipal services.
+321,Event Ors,Event services.
+322,Sportkart D.O.O.,Go-karting venue: team-building.
+323,"Interaction Design Foundation, Inc",Online UX design courses membership.
+324,(Blank),Unidentified payee: no vendor name recorded.
+325,Escape Art D.O.O.,Escape room: team-building.
+326,Fero-Term,Croatian hardware / home improvement retailer.
+327,Ustanova Za Zdravstvenu Skrb P.P.,Croatian healthcare institution: employee medical exams.
+328,Vistaprint,"Online printing (business cards, marketing materials)."
+329,Teb Poslovno Savjetovanje D.O.O.,Croatian accounting / tax publisher and seminar provider.
+330,Illunis D.O.O.,"Croatian supplier: no public record matched, purpose unconfirmed."
+331,The Cook Kitchen,Food outlet.
+332,Australian Taxation Office (Ato),Australian tax authority.
+333,Capitol Services,US registered agent and corporate filing services.
+334,Bonus Opinio D.O.O.,"Croatian supplier: no public record matched, purpose unconfirmed."
+335,Dhl Express (Uk) Ltd,Courier and express delivery (UK).
+336,Kat'S Kitchen D.O.O.,Food outlet in Croatia.
+337,Soho Kitchen Ltd,Restaurant in London.
+338,Fortis Trade J.D.O.O.,"Croatian supplier: no public record matched, purpose unconfirmed."
+339,Till Trade D.O.O.,"Croatian supplier: no public record matched, purpose unconfirmed."
+340,Pret A Manger,Sandwich and coffee chain.
+341,Axil Coffee Roasters,Melbourne café.
+342,Pepco Croatia D.O.O.,Discount retailer: office sundries.
+343,Lemia D.O.O.,"Croatian supplier: no public record matched, purpose unconfirmed."
+344,Retriever Llc,"Supplier: no public record matched, purpose unconfirmed."
+345,Meluba Limited,"Supplier: no public record matched, purpose unconfirmed."
+346,London Waste Management,Office waste collection in London.
+347,Hilton Garden Inn - Zagreb City Hotels D.O.O.,Hotel in Zagreb: accommodation.
+348,Lider Media D.O.O.,Croatian business magazine: subscription.
+349,Uptime Robot Service Provider Ltd,Website uptime monitoring.
+350,Mithras Consultants,"Indian consultancy: no public record matched, purpose unconfirmed."
+351,6Sense Insights Inc,Account-based marketing and buyer intent data platform.
+352,Ico,UK Information Commissioner's Office: annual data protection fee.
+353,Sportska Udruga Split,Sports association in Split: team activity.
+354,Prezzee,Digital gift cards.
+355,Inet Telecoms Ltd.,UK VoIP / business telephony.
+356,Wolt Enterprises Oy,Food delivery app.
+357,Platinum Office D.O.O.,Croatian office supplies provider.
+358,Snappy Snaps,Photo and print shop.
+359,New Block D.O.O.,"Croatian supplier: no public record matched, purpose unconfirmed."
+360,Cayman Islands Government,Cayman Islands government: entity registration fees.
+361,Officeworks,Australian office supplies retailer.
+362,Click Send Pty Ltd,SMS / messaging gateway API.
+363,Kall Kwik Centre 565,Print and copy shop (UK).
+364,Shilton Hospitality Llp,Indian hotel operator: accommodation.
+365,Axosoft Gitkraken,Git GUI client.
+366,Istra Wine,Wine retailer (gifts).
+367,Gophr,Same-day courier service (UK).
+368,Pan-Pek D.O.O.,Croatian bakery chain.
+369,Uber *Eats,Food delivery.
+370,Fedex Express Uk Transportation Ltd,Courier and express delivery.
+371,Garden City D.O.O.,"Croatian supplier: no public record matched, purpose unconfirmed."
+372,Livingstone,"Supplier: no public record matched, purpose unconfirmed."
+373,Ekupi D.O.O.,Croatian online electronics retailer.
+374,Farmacia - Specijalizirana Prodavaonica D.O.O.,Pharmacy retailer: first-aid supplies.
+375,Cupcake Central (Life Is Sweet Bakery),Bakery in Melbourne.
+376,Post Office Ltd,UK postal services.
+377,Currys Pc World,UK consumer electronics retailer.
+378,Brodomerkur D.D.,Croatian hardware / tools retailer.
+379,Sport Vision D.O.O.,Sports goods retailer.
+380,Harissa D.O.O.,Restaurant in Croatia.
+381,Specijalisticka Ordinacija Medicine Rada I Sporta Ina Kardos,Occupational and sports medicine clinic: employee medical exams.
+382,Specijalisticka Ordinacija Medicine Rada Helena Blazic,Occupational medicine clinic: employee medical exams.
+383,Ustanova Za Medicinu Rada I Sporta Dr. Novacki,Occupational and sports medicine clinic: employee medical exams.
+384,M&S Simply Food,Grocery / food retailer.
+385,Bakemono Bakers Melbourne,Bakery in Melbourne.
+386,Coles,Australian supermarket: office pantry.

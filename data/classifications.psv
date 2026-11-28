@@ -1,0 +1,388 @@
+# key|department|description|action|rationale (or @template)|confidence (H default, M, L)
+# One line per vendor, in the same order as data/vendors_source.csv. `key` is a prefix of the vendor name used as an alignment check.
+Salesforce Uk Ltd-Uk|Sales|CRM platform used to manage sales pipeline, customer accounts and revenue operations.|Optimize|Largest vendor at about 40% of total spend. First confirm the contract type. If seat licences: audit licences, editions and add-on clouds against active users, remove unused seats and renegotiate at renewal. If a platform or reseller agreement tied to the product: renegotiate the fee rate and minimum commitment. Saving assumes 15%; the range is 10-20% until the contract is reviewed.|M
+Navan (Tripactions Inc)|G&A|Corporate travel booking and expense management platform (formerly TripActions); spend is mostly pass-through travel.|Optimize|Keep as the single travel channel. Tighten travel policy (advance booking, class and hotel caps) and merge the duplicate Navan, Inc vendor record.
+Bdo Llp|Finance|Audit, tax and accounting advisory firm.|Consolidate|@audit|M
+Tog Uk Properties Limited|Facilities|The Office Group: London flexible/serviced office space provider.|Optimize|Largest office cost. Cut to a small London hub sized to actual attendance (target about 50% reduction), subject to the lease break date.|M
+Cloudcrossing Bvba|Sales|Belgian maker of PDF Butler, a document generation app for Salesforce (quotes, proposals, contracts).|Optimize|Significant spend for a single component. Benchmark against alternatives (Conga, native Salesforce document generation) and renegotiate volume pricing.|M
+Zagrebtower D.O.O.|Facilities|Landlord of the Zagreb Tower office building (Zagreb office lease).|Optimize|Core engineering-hub lease. Hand back or sublet surplus floor space to match hybrid attendance (target about 40% reduction), subject to the break clause.|M
+Innovent Spaces Private Limited|Facilities|Managed office / coworking space provider in India.|Optimize|Keep as the single India site, absorb the Work Easy team, and renegotiate the desk count (target about 40% reduction), subject to contract term.|M
+Weking D.O.O.|Facilities|Croatian company not confirmed from public sources; spend size suggests an office lease (site to be confirmed).|Optimize|8th-largest vendor with no confirmed purpose. Require the contract and a named owner within 30 days. If it is a second Zagreb lease it overlaps with Zagrebtower and should be merged into one site. No saving is assumed until verified.|L
+Jensten Insurance Brokers|Finance|UK commercial insurance broker (business insurance policies).|Consolidate|Spend is mostly insurance premiums placed through the broker. Two brokers are used (Jensten UK, Shoff Darby US); consolidate onto one programme, ideally the parent company's, and re-market at renewal.|M
+Gpt Space & Co|Facilities|GPT Group's flexible workspace / coworking offices in Australia.|Terminate|Premium flexible office for the Australian team. Exit at membership end and move to remote working; saving is net of an allowance for on-demand desks.|M
+Aetna Life And Casualty Ltd|G&A|International private health insurance for employees.|Consolidate|@health
+Rsm Uk Corporate Finance Llp|M&A|Corporate finance / M&A transaction advisory.|Terminate|One-off transaction advisory engagement. Confirm the deal work is complete and close the engagement so no retainer continues.
+Amazon Web Services Llc|Engineering|Cloud infrastructure hosting (compute, storage, networking).|Optimize|Apply savings plans / reserved instances, rightsize and remove idle resources; bring both AWS vendor records under one AWS Organization for volume discounts.
+Telefonica Global Services Gmbh|Sales|Telefónica group procurement entity; fees charged to suppliers for doing business with Telefónica.|Optimize|Cost of serving a key telecom customer. Verify fees against the customer contract and seek to net or pass them through in pricing.|M
+Hr Solution International Gmbh|G&A|International payroll and employer-of-record (EOR) services.|Consolidate|Same provider billed through two entities (GmbH and AG); also overlaps with other payroll vendors. Consolidate to one global payroll/EOR contract. Most of the spend is pass-through employment cost, so the saving is assumed on the service fee only.
+4I Advisory Services|Finance|India-based accounting, tax, assurance and compliance advisory firm.|Consolidate|Three related India accounting vendors (4i Advisory, 4i Management Consulting, N S Shastri & Co). Combine into one engagement letter with a fixed fee.
+Bisley Law Ltd|Legal|UK law firm providing legal services.|Consolidate|@legal_uk|M
+Infosys|Engineering|IT services and outsourced software development/consulting.|Optimize|Review statement of work and rate card against in-house Zagreb/India engineering cost; cap hours or bring work in-house.
+Big Frontier Pty Ltd (Cult Of Monday)|G&A|Australian firm trading as Cult of Monday; believed to be a Salesforce-ecosystem recruiter (unconfirmed).|Optimize|Confirm from an invoice. If these are recruitment fees, stop them with the other agencies. No saving is assumed until verified.|L
+Harmonic Group Limited|G&A|UK recruitment agency specialising in finance and operations hires.|Terminate|@recruit|M
+Wework Singapore Pte. Ltd.|Facilities|Coworking / flexible office space in Singapore.|Terminate|Coworking membership for the Singapore team. Exit at term end and move to remote working; saving is net of an allowance for on-demand desks.|M
+Cloud Technology Solutions Ltd|SaaS|UK Google Cloud / Google Workspace reseller and services partner (CTS).|Consolidate|Google is bought three ways (CTS, Google Ireland direct, Plus Your Business). Consolidate to one channel and one licence true-up.
+Navan, Inc|G&A|Corporate travel and expense platform (US entity of Navan).|Consolidate|@dup
+Tmforum|Marketing|TM Forum: telecom industry association membership and events.|Optimize|Membership fee is tiered by revenue. Review the tier and event spend against the pipeline it generates, and merge the duplicate $510 vendor record.
+Linkedin Ireland Limited|G&A|LinkedIn Recruiter, job ads and Sales Navigator subscriptions.|Optimize|Audit recruiter/Sales Navigator seats. Use it to replace agency hires, which justifies the cost.
+Kimble Applications Ltd|Professional Services|Salesforce-native professional services automation (PSA) software.|Optimize|Rightsize licences to billable delivery headcount and negotiate at renewal.
+Sage Uk Limited|Finance|Accounting / ERP software.|Consolidate|Separate general ledger. Migrate onto the parent company's ERP after close and retire it (assumes the parent company runs a group ERP).|M
+Grant Thornton|Finance|Audit, tax and advisory firm.|Consolidate|@audit
+Sveu|G&A|University of Zagreb Student Centre: agency through which student workers are legally engaged and paid in Croatia.|Optimize|Pass-through student labour cost plus agency fee. Review student headcount and hours against need.
+Ss&C Intralinks Inc|M&A|Virtual data room for M&A / due diligence.|Terminate|Deal-specific tool. Archive the data room and cancel once the transaction closes; data rooms auto-renew expensively.
+Veniture D.O.O.|Engineering|Atlassian solution partner in Zagreb: Jira/Confluence licences and services.|Optimize|Reseller for the Atlassian suite the company is standardising on, so the spend continues. Right-size Jira/Confluence user tiers and check whether the parent company's Atlassian agreement gives better pricing.
+Accutrainee Limited|Legal|UK provider of flexible/seconded trainee solicitors.|Optimize|Review whether the secondment is still needed versus an in-house hire or the panel firm.
+Mason Frank International Ltd|G&A|Recruitment agency specialising in Salesforce talent.|Terminate|@recruit|M
+Houlihan Lokey Advisors, Llc|M&A|Investment bank providing M&A and financial advisory.|Terminate|One-off transaction advisory. Confirm engagement has ended and no tail fees/retainer remain.
+Vector Capital Management Lp|M&A|Private equity firm (prior owner): management / monitoring fees and expense recharges.|Terminate|Monitoring fees and expense recharges from the prior private-equity owner. These end at change of control; confirm there are no tail obligations in the purchase agreement.|M
+Hubspot Ireland Limited|Marketing|Marketing automation and CRM software.|Optimize|Clean the contact database to drop a pricing tier and remove unused hubs/seats; overlaps with Salesforce and Uberflip.
+Nefron - Obrt Za Poslovne Usluge|G&A|Croatian sole-proprietor business services contractor (specific service unconfirmed).|Optimize|Likely an individual contractor. Confirm scope and compare day rate against an employee or agency equivalent.|L
+Planful, Inc.|Finance|Cloud FP&A (budgeting, planning and consolidation) software.|Consolidate|Separate planning tool. Migrate onto the parent company's FP&A platform after close (assumes the parent company has one).|M
+Cognism Limited|Sales|B2B sales intelligence and contact data platform.|Consolidate|@salesintel
+Uberflip|Marketing|Content experience platform for marketing content hubs.|Terminate|Niche tool whose function is covered by HubSpot landing pages/CMS. Cancel at renewal.
+Agram Life Osiguranje D.O.O.|G&A|Croatian life / supplementary health insurance for employees.|Optimize|Local benefit for the Croatian workforce. Re-tender via broker at renewal.
+Google Ireland Limited|SaaS|Google Workspace subscriptions billed directly by Google (may include Google Ads; confirm from invoice).|Consolidate|Bought directly as well as through reseller CTS. Consolidate to one channel.|M
+Zuric I Partneri Odvjetnicko Drustvo D.O.O.|Legal|Croatian law firm (local counsel).|Optimize|Local counsel is needed for the Croatian entity. Agree a rate card or fixed fees for routine work.
+Care Health Insurance Company Limited|G&A|Indian health insurer: group medical cover for India employees.|Consolidate|Two India group insurers (Care Health, ICICI Lombard). Place with one insurer via a broker.
+New Star Networks(Nsn)|Facilities|UK business telecoms: connectivity and hosted voice.|Consolidate|@telecom
+Bupa- Supplier|G&A|UK private medical insurance for employees.|Consolidate|@health
+Shree Info System Solutions Pvt Ltd|G&A|Indian IT hardware and systems supplier.|Consolidate|@hardware|M
+Technet It Recruitment|G&A|IT recruitment agency.|Terminate|@recruit|M
+Mightyhive Ltd|Marketing|Digital marketing / ad-tech consultancy and media buying.|Optimize|Review paid-media ROI; move to performance-based fees or bring in-house.
+Cedar Recruitment Ltd|G&A|UK finance and accountancy recruitment agency.|Terminate|@recruit|M
+Eurofast International Ltd-Greec|Finance|Regional accounting, tax and payroll advisory firm (South-East Europe).|Consolidate|@audit
+Hrvatski Telekom D.D.|Facilities|Croatian telecom operator: internet and mobile services.|Consolidate|Two Croatian telecom providers (Hrvatski Telekom, Telemach). Move to one provider on a business tariff.
+Sodexo Svc India Private Limited|G&A|Employee meal vouchers / benefit cards in India.|Consolidate|Sodexo's benefits arm was rebranded Pluxee, so this is the same provider as Pluxee India. Merge the vendor records; the vouchers are a pass-through benefit, so no saving is assumed.
+Peakon Aps|SaaS|Employee engagement survey platform (Workday Peakon).|Consolidate|Two HR tools (engagement surveys here, performance reviews in PerformancePro). Consolidate onto one people platform, ideally the parent company's (assumes it covers both).|M
+Plus Your Business Ltd|Marketing|UK Google-focused digital marketing and training consultancy.|Consolidate|Overlaps with CTS and MightyHive. Fold into the single Google/digital partner.|M
+Benefit Systems D.O.O.|G&A|MultiSport card: employee fitness and wellness benefit in Croatia.|Optimize|Review active card usage and employee co-pay share.
+Smart Group Services D.O.O.|G&A|Croatian business consulting / HR staffing services firm.|Optimize|Confirm scope (staffing versus consulting) and compare the mark-up against direct hires.|M
+Jones Lang Lasalle (Nsw) Pty Ltd|Facilities|Commercial real estate services (leasing / property management) in Australia.|Optimize|Likely lease-related fees. Confirm whether one-off; review against the GPT Space&Co workspace cost.|M
+Workato, Inc.|SaaS|Integration and workflow automation platform (iPaaS).|Optimize|Keep as the single automation platform (absorb Zapier). Review recipe/task tier.
+Konzum Plus D.O.O.|Facilities|Croatian supermarket chain: office pantry and supplies.|Consolidate|@pantry
+Westbrook Advisers|Legal|UK solicitors' firm based in Newbury (SRA-regulated).|Consolidate|@legal_uk|M
+Work Easy Space Solutions Private Limited|Facilities|Coworking / serviced office provider in Chennai, India.|Terminate|Second India workspace. Close it and move the team into the Innovent site.
+Taxstudio, Ltd.|Finance|Tax advisory and compliance services.|Consolidate|@audit|M
+Pingo D.O.O.|G&A|Croatian supplier; nature of service could not be verified.|Optimize|Confirm business owner and purpose; set a PO requirement.|L
+Magazin Ra|G&A|Croatian computer hardware and IT equipment reseller.|Consolidate|@hardware|M
+Tp Prime D.O.O.|Finance|Croatian accounting, bookkeeping and tax advisory firm.|Consolidate|Two Croatian accounting and tax advisers (TP Prime, Porezno savjetnistvo TUK). Consolidate to one local firm.
+Granttree Limited|Finance|UK R&D tax credit and grant funding advisers.|Optimize|Success-fee based. Renegotiate the percentage or move to a fixed-fee adviser.
+Cigna Sg|G&A|Health insurance for Singapore employees.|Consolidate|@health
+Collards Chartered Accountants|Finance|UK chartered accountants.|Consolidate|@audit
+Bupa Australia|G&A|Health insurance for Australia-based employees (e.g. visa holders).|Consolidate|@health
+4I Management Consulting Private Limited|Finance|India-based management, accounting and compliance consulting (4i group).|Consolidate|Related entity of 4i Advisory Services. Combine into one engagement.
+Grad Zagreb|Facilities|City of Zagreb municipal office: local fees and communal charges.|Optimize|@statutory
+Bijeli Pijesak Obrt Za Poslovno Savjetovanje|G&A|Croatian sole-proprietor business consultant.|Optimize|Individual consultant. Confirm deliverables and whether the engagement is still required.|L
+Ramiro D.O.O.|G&A|Croatian HR, organisational development and training consultancy.|Optimize|Review training programme outcomes; negotiate a package rate.
+Visalogic Limited|G&A|UK immigration and visa services.|Optimize|Needed for sponsored hires. Agree fixed fees per application.
+Poles Ltd - Hanbury Manor|G&A|Hanbury Manor hotel and country club: offsite / event venue.|Terminate|@event
+Shoff Darby Companies|Finance|US insurance broker.|Consolidate|Two insurance brokers (Jensten UK, Shoff Darby US). Place a single global programme through one broker. Spend is mostly pass-through premiums.
+Emerge Development Consultancy Ltd|G&A|UK leadership development and executive coaching consultancy.|Optimize|Discretionary coaching. Cap spend and tie to named development plans.
+Performancepro|SaaS|Employee performance management software.|Consolidate|Two HR tools (performance reviews here, engagement surveys in Peakon). Consolidate onto one people platform, ideally the parent company's (assumes it covers both).|M
+Microsoft Ireland Operations Limited|SaaS|Microsoft 365 / Azure software subscriptions.|Consolidate|Company runs Google Workspace as well. Standardise on one productivity suite and keep only required Microsoft licences.|M
+Catering Muring|G&A|Catering service in Zagreb.|Consolidate|@catering
+Omonia D.O.O.|Engineering|Croatian custom software development / IT services firm.|Optimize|Review contractor scope against in-house engineering capacity.|M
+Outreach Corporation|Sales|Sales engagement and sequencing platform.|Optimize|Audit active seats; evaluate HubSpot/Salesforce native sequences as a replacement.
+Cbre Limited|Facilities|Commercial real estate services (UK).|Optimize|Likely one-off lease advisory. Confirm scope is complete.|M
+Studentski Centar - Split|G&A|Split Student Centre: agency for engaging student workers in Croatia.|Optimize|Pass-through student labour cost. Review hours against need.
+The Guardian|G&A|Newspaper: job advertising / subscription.|Terminate|Job-board spend duplicated by LinkedIn; cancel.|M
+Intertrust Singapore Corporate Services Pte Ltd - Csc|Legal|Corporate secretarial and entity management services in Singapore.|Consolidate|@cosec
+Goto Technologies Uk Limited|SaaS|GoTo Meeting / remote access software (formerly LogMeIn).|Terminate|Redundant with Google Meet and Slack already licensed. Cancel at renewal.
+Hrsolution International Ag|G&A|International payroll / EOR services (Swiss entity of HRsolution).|Consolidate|@dup
+Trello|SaaS|Kanban-style project management tool (owned by Atlassian).|Consolidate|@pmtools
+Obrt Sjaj Sunca|Facilities|Croatian sole-proprietor service business (likely office cleaning).|Optimize|Confirm service and benchmark the rate.|L
+Telef|Sales|Telefónica's e-procurement marketplace (Adquira): supplier platform fees.|Optimize|Cost of selling to Telefónica. Verify fees and consolidate with the Telefonica Global Services charges.|M
+Allianz Australia Workers' Compensation (Victoria) Limited|G&A|Statutory workers' compensation insurance (Victoria, Australia).|Optimize|@statutory
+Icici Lombard Gic Ltd|G&A|Indian general insurer: group health / accident cover.|Consolidate|Two India group insurers (Care Health, ICICI Lombard). Place with one insurer.
+Mosaic Concept D.O.O.|G&A|Croatian supplier: no public record matched, purpose unconfirmed.|Optimize|Confirm owner and purpose.|L
+Limes Plus D.O.O.|Facilities|Croatian catalogue supplier of office equipment and supplies.|Consolidate|@supplies|M
+Mercer Limited|G&A|HR, benefits and compensation consulting / brokerage.|Optimize|Use Mercer as the single global benefits broker to consolidate the fragmented health insurers. The saving is counted on the insurer rows, not here.
+Acclime Corporate Services|Legal|Corporate services in Asia-Pacific: company secretarial, accounting and compliance.|Consolidate|@cosec
+Green Commute Initiative|G&A|UK cycle-to-work scheme provider.|Optimize|Salary-sacrifice scheme, recovered from employees. Confirm recoveries are collected.
+Tattu Manchester Limited|G&A|Restaurant in Manchester (team / client dinner).|Terminate|@meal
+Athlete Service Ltd|G&A|UK online cycling retailer (likely cycle-to-work scheme purchases).|Optimize|Likely bikes bought under the cycle-to-work scheme, which employees repay through salary sacrifice. Confirm full payroll recovery; no saving assumed.|M
+Amazon Web Services Inc.|Engineering|Cloud infrastructure (second AWS billing entity).|Consolidate|Second AWS account billed outside the main one. Move under one AWS Organization for consolidated billing and discounts.
+Telemach Hrvatska D.O.O.|Facilities|Croatian telecom operator: mobile / internet.|Consolidate|Two Croatian telecom providers (Hrvatski Telekom, Telemach). Move to one.
+Acclime Usa, Inc|Legal|US corporate services: accounting, tax and compliance.|Consolidate|@cosec
+Centar Za Sigurnost D.O.O.|Facilities|Croatian workplace safety and security services (occupational safety compliance).|Optimize|Compliance requirement. Benchmark the fee.|M
+Profi Bar D.O.O.|Facilities|Croatian beverage / bar supplies provider.|Consolidate|@pantry|L
+Pricewaterhousecoopers Llp|Finance|Audit, tax and advisory firm.|Consolidate|@audit
+Pinnacle Partnership Ca|Finance|Chartered accountancy firm.|Consolidate|@audit
+The Virtual Legal Counsel Ltd|Legal|UK outsourced / fractional in-house legal counsel.|Consolidate|@legal_uk
+Australian Payroll Professionals Pty Ltd|Finance|Outsourced payroll processing in Australia.|Consolidate|Fold Australian payroll into the global payroll/EOR provider (HRsolution).
+Inter Continental Chennai Mahabalipuram Resort|G&A|Resort hotel near Chennai: company offsite venue.|Terminate|@event
+Jetbrains S.R.O.|Engineering|Developer IDEs and tools (IntelliJ, etc.).|Optimize|Move to an all-products organisational pack sized to active developers; reclaim unused seats.
+Crowe Horwath Revizija D.O.O.|Finance|Croatian statutory audit firm.|Consolidate|Statutory auditor of the Croatian entity. The audit stays, but appoint the group audit firm's local office at the next cycle for one fee negotiation.
+Puducherry Backwater Resort Private Limited|G&A|Resort in Puducherry, India: team offsite venue.|Terminate|@event
+Orionw Llc|G&A|US supplier: could not be identified from the name; not researched (spend under $5K).|Terminate|@unknown|L
+Adobe Systems Software|Marketing|Creative and document software (Creative Cloud / Acrobat).|Optimize|Audit seats; move occasional users to single-app or Acrobat-only plans.
+Common Desk, Llc|Facilities|US coworking space provider.|Terminate|US coworking desk for a handful of staff. Exit and work remotely.
+Hep Elektra D.O.O.|Facilities|Croatian electricity utility.|Optimize|Utility. Check tariff and whether charges should be included in the lease.
+Zivi Napitak D.O.O.|Facilities|Croatian beverage / water supplier for the office.|Consolidate|@pantry|M
+Gym4You D.O.O.|G&A|Gym / fitness membership in Croatia.|Consolidate|Duplicates the MultiSport card (Benefit Systems). Fold into the one fitness benefit.
+Aha! Labs Inc|Product|Product roadmap and product management software.|Consolidate|@pmtools
+Apple Retail Uk Ltd|G&A|Apple hardware purchases (laptops, phones, accessories).|Consolidate|@apple
+Kryterion, Inc.|Professional Services|Online certification exam delivery and proctoring platform.|Optimize|Supports the product certification programme. Review exam volume against the platform fee.
+Npm Inc|Engineering|JavaScript package registry: private packages.|Optimize|Review seat count; GitHub Packages may cover the need.
+Pinsent Masons Mpillay Llp|Legal|Singapore law firm.|Consolidate|Two Singapore law firms (Pinsent Masons MPillay, Quadrant Law). Use one.
+Calm Achiever(A Unit Of Mohsin Ali Vakil)|G&A|Indian productivity training firm (Getting Things Done and Holacracy coaching).|Terminate|Discretionary training. Stop, and route any future need through a central training budget.
+Pluxee India Private Limited|G&A|Employee meal and benefit cards in India (formerly Sodexo Benefits).|Consolidate|Same provider as Sodexo Svc India (rebrand). Merge the vendor records; pass-through benefit, so no saving is assumed.
+O|Legal|Australian law firm.|Optimize|Local counsel. Agree fixed fees for routine matters.
+Papertrail Inc|Engineering|Cloud log management service (a SolarWinds product).|Consolidate|@monitoring
+Sniper Systems And Solutions Private Limited|G&A|Indian IT hardware reseller (Apple and others).|Consolidate|@hardware
+Trocadero (London) Hotel Ltd|G&A|London hotel accommodation.|Consolidate|@travel
+Semrush Inc|Marketing|SEO and search marketing analytics tool.|Optimize|Reduce to the minimum user seats / plan.
+Golubica Parking D.O.O.|Facilities|Parking provider in Croatia.|Optimize|Review allocated parking spaces against use.
+Vodafone (Australian)|Facilities|Mobile telecom services in Australia.|Optimize|Review plans against usage; drop inactive lines.
+Ikea Hrvatska D.O.O.|Facilities|Furniture retailer: office furniture.|Terminate|@tail
+Orcola D.O.O.|G&A|Croatian supplier: could not be identified from the name; not researched (spend under $5K).|Terminate|@unknown|L
+Info Edge India Limited|G&A|Operator of Naukri.com, India's job board.|Optimize|Keep for India hiring; buy job credits only as required.
+Grad Split|Facilities|City of Split: municipal fees and communal charges.|Optimize|@statutory
+T-Mobile|Facilities|Mobile telecom services.|Optimize|Review plans and inactive lines.
+Akton D.O.O.|G&A|Croatian supplier: could not be identified from the name; not researched (spend under $5K).|Terminate|@unknown|L
+Bureau Veritas Croatia D.O.O.|G&A|Certification and audit body (e.g. ISO 27001 / 9001 audits).|Optimize|Required for customer assurance. Bundle certifications into one audit cycle.
+Cici Prudential Life Insurance Co. Ltd.|G&A|ICICI Prudential: group life insurance for India employees.|Optimize|Statutory-style benefit. Re-quote with the main India insurer.
+Ncc Services Limited|Legal|Software escrow services (NCC Group).|Optimize|Customer-contract requirement. Confirm each escrow agreement is still needed.
+Smartsheet Inc.|SaaS|Spreadsheet-style project and work management tool.|Consolidate|@pmtools
+Good Game Global D.O.O.|G&A|Croatian esports / gaming event organiser (team-building).|Terminate|@event
+Gara|Facilities|Parking garage in Split.|Optimize|Review allocated parking against use.
+Crossland|G&A|Supplier: could not be identified from the name; not researched (spend under $5K).|Terminate|@unknown|L
+It London|G&A|Unconfirmed payee; the name suggests a London IT support or supplies provider.|Terminate|@unknown|L
+Terrapinn Holdings Ltd|Marketing|B2B conference and trade show organiser.|Optimize|Attend only events with measurable pipeline.
+Elemental Life Solutions Llp|G&A|Unconfirmed Indian payee; the name suggests wellness or lifestyle services.|Terminate|@unknown|L
+United Flow Ltd (The Goodness Project)|G&A|Vegan snack and gift boxes for employees.|Terminate|@gift
+Mcburneys Charted Accountants|Finance|Chartered accountants.|Consolidate|@audit
+Cleverland Winery Resort|G&A|Winery resort: team offsite venue.|Terminate|@event
+Ag Grid Ltd|Engineering|JavaScript data grid component: enterprise licence.|Optimize|Product dependency. License only the developers who need it.
+Lusha|Sales|B2B contact data / sales prospecting tool.|Consolidate|@salesintel
+My Foodiverse Llp|G&A|Indian food / catering provider.|Consolidate|@catering
+4Imprint Direct Ltd|Marketing|Promotional merchandise supplier.|Consolidate|@merch
+City Pantry Ltd|G&A|Office catering marketplace (UK).|Consolidate|@catering
+Stipe Piric|G&A|Individual payee (contractor or employee reimbursement).|Terminate|@person|M
+Office Move London|Facilities|Office removals company.|Terminate|One-off office move, now complete. Close vendor record.
+Pink Ribbon Shop|G&A|Breast cancer charity merchandise shop.|Terminate|@gift
+Starhub Ltd (Supplier)|Facilities|Singapore telecom provider.|Optimize|Review plan against usage.
+N S Shastri And Co|Finance|Indian chartered accountancy firm (founder of 4i Advisory).|Consolidate|Related to 4i Advisory Services. Combine into one India engagement.
+John Smith|G&A|Individual payee (contractor or employee reimbursement).|Terminate|@person|M
+Fabiola Thistlewhaite|G&A|Individual payee (contractor or employee reimbursement).|Terminate|@person|M
+Hp Inc Uk Limited|G&A|Computer hardware and printers.|Consolidate|@hardware
+Cision Pr Newswire|Marketing|Press release distribution service.|Optimize|Pay per release only; avoid subscription bundles.
+George Anchor|G&A|Individual payee (contractor or employee reimbursement).|Terminate|@person|M
+Yoxel, Inc|Sales|Email and calendar sync tool for Salesforce.|Terminate|Redundant with native Salesforce / HubSpot email integration. Cancel.|M
+Grt Hotels And Resorts P Ltd|G&A|Indian hotel group: accommodation / events.|Consolidate|@travel
+Apple Pty Ltd|G&A|Apple hardware purchases (Australia).|Consolidate|@apple
+Slack Technologies Limited|SaaS|Team messaging and collaboration platform.|Optimize|Spend implies partial adoption. Either standardise on Slack or use Google Chat already included in Workspace.
+G S Notary Public Limited|Legal|Notary public services.|Optimize|Ad hoc requirement; no action beyond using as needed.
+Apple Distribution International Ltd|G&A|Apple hardware / software purchases (EU entity).|Consolidate|@apple
+Porezno Savjetni|Finance|Croatian tax advisory firm.|Consolidate|Two Croatian accounting and tax advisers (TP Prime, Porezno savjetnistvo TUK). Consolidate to one local firm.
+Susan Lee|G&A|Individual payee (contractor or employee reimbursement).|Terminate|@person|M
+Ansar Madovic|G&A|Individual payee (contractor or employee reimbursement).|Terminate|@person|M
+Radius Group, Inc|G&A|US supplier: could not be identified from the name; not researched (spend under $5K).|Terminate|@unknown|L
+Aquila Remete D.O.O.|G&A|Croatian supplier: could not be identified from the name; not researched (spend under $5K).|Terminate|@unknown|L
+Clime India Private Limited|G&A|Indian supplier: could not be identified from the name; not researched (spend under $5K).|Terminate|@unknown|L
+Golden Mean, Inc|G&A|US supplier: could not be identified from the name; not researched (spend under $5K).|Terminate|@unknown|L
+Paint & Fun Vl. Martina Milkova Nikolova|G&A|Painting workshop: team-building activity.|Terminate|@event
+Carrington Communications|Marketing|PR and communications agency.|Optimize|Use on a per-project basis rather than retainer.|M
+Crayond Digital Private Limited|Marketing|Indian digital product and marketing agency.|Optimize|Confirm scope; use per-project.|M
+Studentski Centar Karlovac|G&A|Karlovac Student Centre: agency for engaging student workers in Croatia.|Optimize|Pass-through student labour cost. Review hours against need.
+Lajnap Comedy Booking D.O.O.|G&A|Stand-up comedy booking agency: team event entertainment.|Terminate|@event
+British Telecommunications|Facilities|UK telecom: broadband / phone lines.|Consolidate|@telecom
+Etm Concessions Ltd|G&A|UK restaurant / hospitality group.|Terminate|@meal|L
+Radisson Grt - Unit Of Hotels & Resorts Pvt Ltd|G&A|Radisson hotel in Chennai: accommodation.|Consolidate|@travel
+Ariba Inc|Sales|SAP Ariba supplier network: fees to transact with customers.|Optimize|Customer-mandated. Check the subscription tier matches transaction volume.
+Chamiers Recreation Club|G&A|Recreation club in Chennai: team event venue.|Terminate|@event
+Quadrant Law Llc|Legal|Singapore law firm.|Consolidate|Two Singapore law firms (Pinsent Masons MPillay, Quadrant Law). Use one.
+Docusign|SaaS|Electronic signature software.|Optimize|Low-volume plan. Check envelope usage; Salesforce or Workspace e-sign may suffice.
+Inside Edge Novated Leasing|G&A|Australian novated car leasing (salary packaging) provider.|Optimize|Employee-funded salary sacrifice. Confirm full payroll recovery.
+Rhea D.O.O.|G&A|Croatian supplier: could not be identified from the name; not researched (spend under $5K).|Terminate|@unknown|L
+P S Recreation Club|G&A|Recreation club: team event venue.|Terminate|@event
+Fastspring|SaaS|Merchant-of-record reseller: a third-party software purchase billed through FastSpring.|Optimize|Identify the underlying product and its owner; cancel if unused.|M
+Dsv Solutions A/S|Facilities|Freight and logistics services.|Consolidate|@courier
+Curzon Green Solicitors|Legal|UK employment law solicitors.|Consolidate|@legal_uk
+Icare Nsw|G&A|Statutory workers' compensation insurer (New South Wales).|Optimize|@statutory
+Thomas Mansfield Solicitors Limited|Legal|UK employment law solicitors.|Consolidate|@legal_uk
+Amazon.Co.Uk|Facilities|Online retail: office supplies and equipment.|Consolidate|@supplies
+Backoffice Associates|Engineering|Data migration and data management services (now Syniti).|Terminate|Small residual charge. Confirm the project is complete and close.|L
+Oladi D.O.O.|G&A|Croatian supplier: could not be identified from the name; not researched (spend under $5K).|Terminate|@unknown|L
+Integrated Personnel Services|G&A|Indian staffing and payroll outsourcing firm.|Consolidate|India staffing and payroll outsourcing overlaps with the payroll/EOR provider. Fold into the single global payroll contract.
+M|Facilities|Müller drugstore: office sundries.|Terminate|@tail
+Lunch Nutrition D.O.O.|G&A|Meal delivery service in Croatia.|Consolidate|@catering
+Winmaxi Tours & Travels|G&A|Indian travel agency.|Consolidate|@travel
+Digitalna Produkcija J.D.O.O.|Marketing|Croatian digital / video production studio.|Optimize|Use per-project.|M
+Computershare-Caboodle Technology Limited|Finance|Employee share plan / equity administration platform.|Optimize|Required for equity administration. Review plan tier.
+Allianz Wa|G&A|Statutory workers' compensation insurance (Western Australia).|Optimize|@statutory
+Trending Technology Services Gmbh|Engineering|Technical training provider (cloud / DevOps courses).|Optimize|Route through a central training budget.|M
+Godaddy.Com, Llc|SaaS|Domain registration and web hosting.|Consolidate|@domains
+Time Out Group|G&A|Media and hospitality group (venue / event booking).|Terminate|@event|L
+Raiffeisenbank Austria D.D.|Finance|Croatian bank: banking fees and charges.|Optimize|Review the fee schedule and number of accounts.
+Galop-Prijevoz D.O.O.|G&A|Croatian passenger transport / coach hire.|Terminate|@event
+Lane Ip Limited|Legal|UK intellectual property and trademark attorneys.|Optimize|Needed for trademark renewals. Fixed fees.
+Urbani Eventi D.O.O.|G&A|Croatian event organiser.|Terminate|@event
+Smashing Media Ag|Engineering|Smashing Magazine: web design / dev conference and training.|Optimize|Route through a central training budget.
+Epignosis Llc|SaaS|TalentLMS: cloud learning management system.|Optimize|Review active learner tier.
+Croatia Airlines|G&A|Airline: flights booked directly.|Consolidate|@travel
+Bb Football Scouting J.D.O.O.|G&A|Croatian sports services company (team sports activity).|Terminate|@event|L
+Boe Croatia D.O.O.|G&A|Croatian supplier: could not be identified from the name; not researched (spend under $5K).|Terminate|@unknown|L
+Potomac D.O.O.|G&A|Croatian supplier: could not be identified from the name; not researched (spend under $5K).|Terminate|@unknown|L
+President Hotel And Tower Co., Ltd|G&A|Hotel in Bangkok: accommodation.|Consolidate|@travel
+Friends Sports Club|G&A|Sports club: team activity venue.|Terminate|@event
+The Cycle Gap Adyar|G&A|Bicycle shop in Chennai.|Terminate|@tail|M
+Apple - Amer|G&A|Apple hardware purchases (Americas).|Consolidate|@apple
+Klg - Kalra Legal Group|Legal|Indian law firm.|Consolidate|Two India law firms (KLG, IndusLaw). Use one.
+Kilgannon & Partners Llp|Legal|UK employment law solicitors.|Consolidate|@legal_uk
+Uk Postbox Limited|Facilities|Virtual mail address and mail scanning service.|Optimize|Low cost. Confirm still required alongside the London office.
+Catering Ivi|G&A|Catering service in Croatia.|Consolidate|@catering
+Blink Events|G&A|Event management company.|Terminate|@event
+Grafo-Jan|Marketing|Croatian print shop.|Consolidate|@print
+Mesa Verde|G&A|Restaurant (team meal).|Terminate|@meal
+Pixsy Inc|Legal|Image copyright enforcement / licensing service.|Terminate|Likely a one-off image licence settlement. Prevent recurrence by using licensed stock (Freepik).|M
+Dun & Bradstreet D.O.O.|Finance|Business credit reports and company data.|Optimize|Buy reports only as needed.
+Induslaw|Legal|Indian law firm.|Consolidate|Two India law firms (KLG, IndusLaw). Use one.
+Trans-Agram Obrt Za Dostavu|Facilities|Croatian delivery / courier service.|Consolidate|@courier
+Landu Law Solicitors|Legal|UK solicitors.|Consolidate|@legal_uk
+Arena Center Zagreb D.O.O.|G&A|Zagreb shopping centre (gift vouchers).|Terminate|@gift|L
+Obrt Za Ugostiteljstvo Mirakul|G&A|Croatian restaurant / hospitality business.|Terminate|@meal
+Oakberry Jr D.O.O.|G&A|Açaí food outlet in Croatia.|Terminate|@meal
+Tau On-Line D.O.O.|SaaS|Croatian IT / cloud and web services provider.|Optimize|Confirm the service and whether the main cloud vendors cover it.|M
+Magic Mountain Saloon|G&A|Restaurant / bar in Melbourne.|Terminate|@meal
+Hotel Zonar|G&A|Hotel in Zagreb: accommodation.|Consolidate|@travel
+Roto Dinamic D.O.O.|Facilities|Croatian beverage distributor: office drinks.|Consolidate|@pantry
+Tm Forum|Marketing|TM Forum: telecom industry association (duplicate record).|Consolidate|@dup
+Marvie Hotel - Krupa D.O.O.|G&A|Hotel in Split: accommodation.|Consolidate|@travel
+Merchandise Ltd|Marketing|Branded merchandise supplier.|Consolidate|@merch
+Yellow Submarine D.O.O.|G&A|Burger restaurant chain in Croatia.|Terminate|@meal
+Streamlinereforms Inc|G&A|Supplier: could not be identified from the name; not researched (spend under $5K).|Terminate|@unknown|L
+Make And Grow Ltd|G&A|UK supplier: could not be identified from the name; not researched (spend under $5K).|Terminate|@unknown|L
+Obiteljski Hoteli D.O.O.|G&A|Croatian hotel operator: accommodation.|Consolidate|@travel
+Rudan D.O.O.|G&A|Croatian supplier: could not be identified from the name; not researched (spend under $5K).|Terminate|@unknown|L
+Entrio Tehnologije D.O.O.|G&A|Croatian event ticketing platform.|Terminate|@event
+Vivat Fina Vina D.O.O.|G&A|Croatian wine shop (gifts).|Terminate|@gift
+Figma, Inc.|Product|Collaborative interface design tool.|Optimize|Low spend. Keep editor seats to designers only.
+E-Disti D.O.O.|G&A|Croatian IT distribution / equipment supplier.|Consolidate|@hardware|L
+Greencell Express Private Limited|G&A|Indian intercity electric bus operator (travel).|Consolidate|@travel
+Edwardian Pastoria Hotels Ltd (The Londoner)|G&A|The Londoner hotel, London: accommodation.|Consolidate|@travel
+Tiganda J.D.O.O.|G&A|Croatian supplier: could not be identified from the name; not researched (spend under $5K).|Terminate|@unknown|L
+Franklin, Gringer & Cohen, P.C.|Legal|US (New York) labour and employment law firm.|Optimize|Ad hoc US employment advice. Use as needed.
+Blitz - Cinestar D.O.O.|G&A|Cinema chain in Croatia (team event / vouchers).|Terminate|@event
+Lancefield Bus Service|G&A|Australian bus / coach hire.|Terminate|@event
+Super Odredi|G&A|Unconfirmed Croatian payee; the name suggests travel or events.|Terminate|@unknown|L
+Pmi Global Operations Center|Professional Services|Project Management Institute: memberships and PMP certification.|Optimize|Route through the training budget; reimburse on pass.
+Student Packers & Movers|Facilities|Indian packing and moving service.|Terminate|One-off relocation, complete. Close vendor record.
+Del Posto D.O.O.|G&A|Restaurant in Croatia.|Terminate|@meal
+Inicijativa Centar Za Edukaciju|G&A|Croatian education and training centre (courses).|Optimize|Route through the central training budget.
+Niva Transport J.D.O.O.|G&A|Croatian transport service.|Terminate|@event
+Doctor Anywhere Operations Pte Ltd|G&A|Singapore telehealth provider.|Optimize|Check whether Cigna SG cover already includes telehealth.
+Spar Hrvatska D.O.O.|Facilities|Supermarket chain in Croatia: office pantry.|Consolidate|@pantry
+Pepe'S Italian And Liquor|G&A|Italian restaurant in Melbourne.|Terminate|@meal
+Pluralsight, Llc|Engineering|Online technology skills training platform.|Optimize|Single seat. Keep only if actively used.
+Maniax Melbourne Cbd|G&A|Axe-throwing venue: team-building.|Terminate|@event
+Dnsimple|SaaS|DNS hosting and domain management.|Consolidate|@domains
+Treci Posao D.O.O.|G&A|Croatian supplier: could not be identified from the name; not researched (spend under $5K).|Terminate|@unknown|L
+Gaucho Restaurants|G&A|Restaurant chain (UK).|Terminate|@meal
+Formswift|SaaS|Online document and form templates.|Terminate|Redundant with DocuSign and Google Workspace. Cancel.
+Safestore Ltd|Facilities|UK self-storage units.|Terminate|Clear the unit and cancel; storage tends to renew indefinitely.|M
+Split Tech City|Marketing|Split tech community association: membership / sponsorship.|Optimize|Low-cost employer branding in a hiring market. Keep.
+National Securities Depository Limited(Nsdl)|Finance|Indian securities depository: statutory share registry fees.|Optimize|@statutory
+Adamma Info Services Private Limited|G&A|Indian supplier: could not be identified from the name; not researched (spend under $5K).|Terminate|@unknown|L
+The Riding House Cafe|G&A|Restaurant in London.|Terminate|@meal
+Stillmark Zagreb D.O.O.|Facilities|Maker of company stamps and seals.|Terminate|@tail
+Lastpass Ireland Limited|SaaS|Password manager.|Optimize|Spend implies partial coverage. Standardise one password manager company-wide.
+Taste Of Health|G&A|Health food outlet.|Terminate|@meal
+Infodata|G&A|Supplier: could not be identified from the name; not researched (spend under $5K).|Terminate|@unknown|L
+Amazon (Aus)|Facilities|Online retail: office supplies (Australia).|Consolidate|@supplies
+Regency Hampers Ltd|G&A|Gift hampers.|Terminate|@gift
+Bella Operation A/S|Marketing|Bella Center Copenhagen: conference venue services.|Optimize|Event-related (industry conference). Budget within the events plan.|M
+The Plant Man|Facilities|Office plant supply and maintenance.|Optimize|Low cost. No action.
+Media Promo Plus D.O.O.|Marketing|Croatian promotional products supplier.|Consolidate|@merch
+Expert-Ing D.O.O.|Facilities|Croatian engineering / safety inspection services.|Optimize|Likely a compliance inspection. No action.|L
+Atlassian Pty Ltd|Engineering|Jira / Confluence licences billed directly.|Consolidate|@pmtools
+Djs For U|G&A|DJ hire for events.|Terminate|@event
+Freepik Company|Marketing|Stock images and graphics subscription.|Optimize|Low cost. Keep one shared licence.
+Nastavni Zavod Za Javno Zdravstvo|G&A|Zagreb public health institute: health checks / tests.|Optimize|Occupational health requirement. No action.
+Rishi Events And Entainment|G&A|Indian event and entertainment services.|Terminate|@event
+Kosmaz Technologies Croatia|G&A|Croatian technology supplier: could not be identified from the name; not researched (spend under $5K).|Terminate|@unknown|L
+Dhl|Facilities|Courier and express delivery.|Consolidate|@courier
+Hotel Laguna D.D.|G&A|Hotel in Croatia: accommodation.|Consolidate|@travel
+Bigshare Services Private Limited|Finance|Indian registrar and share transfer agent.|Optimize|Registrar and share transfer agent required for the Indian entity; the requirement is statutory, so no saving is assumed.
+Zettanet|Facilities|Australian internet / hosting provider.|Optimize|Confirm still required.
+Hahn Air|G&A|Airline ticketing carrier.|Consolidate|@travel
+Vitality Works|G&A|Australian workplace health provider (e.g. flu vaccinations).|Optimize|Low-cost wellbeing benefit. Keep.
+Avoxi Inc|Facilities|Cloud virtual phone numbers / VoIP.|Consolidate|@telecom
+Zapier Inc.|SaaS|No-code workflow automation tool.|Consolidate|Duplicates Workato. Migrate the zaps and cancel.
+Solarwinds, Inc|Engineering|IT monitoring and management software.|Consolidate|@monitoring
+Xenon Savjetovanje D.O.O.|G&A|Croatian consulting firm: could not be identified from the name; not researched (spend under $5K).|Terminate|@unknown|L
+Floom Ltd|G&A|Online flower delivery.|Terminate|@gift
+Notino S.R.O.|G&A|Online perfume and cosmetics retailer (gifts).|Terminate|@gift
+Paint&Wine, Vl. Stevo Dosen|G&A|Paint-and-wine workshop: team-building.|Terminate|@event
+Parcelforce Worldwide|Facilities|UK parcel delivery.|Consolidate|@courier
+Advena|G&A|Supplier: could not be identified from the name; not researched (spend under $5K).|Terminate|@unknown|L
+Hrvatski Nezavisnici Izvoznici Softvera|Marketing|CISEx: Croatian Independent Software Exporters association membership.|Optimize|Low-cost industry membership. Keep.
+Monile J.D.O.O.|G&A|Croatian supplier: could not be identified from the name; not researched (spend under $5K).|Terminate|@unknown|L
+Puzzle Promotion J.D.O.O.|Marketing|Croatian promotional products supplier.|Consolidate|@merch
+Zagreba|Facilities|City of Zagreb utilities holding: waste collection and municipal services.|Optimize|@statutory
+Event Ors|G&A|Event services.|Terminate|@event
+Sportkart D.O.O.|G&A|Go-karting venue: team-building.|Terminate|@event
+Interaction Design Foundation, Inc|Product|Online UX design courses membership.|Optimize|Route through the training budget.
+(Blank)|G&A|Unidentified payee: no vendor name recorded.|Terminate|Payment with no vendor name is a control gap. Identify and recode it, and block payments without a vendor record. No saving is assumed until it is identified.|L
+Escape Art D.O.O.|G&A|Escape room: team-building.|Terminate|@event
+Fero-Term|Facilities|Croatian hardware / home improvement retailer.|Terminate|@tail
+Ustanova Za Zdravstvenu Skrb P.P.|G&A|Croatian healthcare institution: employee medical exams.|Consolidate|@occmed
+Vistaprint|Marketing|Online printing (business cards, marketing materials).|Consolidate|@print
+Teb Poslovno Savjetovanje D.O.O.|Finance|Croatian accounting / tax publisher and seminar provider.|Optimize|Professional update subscription for the finance team. Keep.
+Illunis D.O.O.|G&A|Croatian supplier: could not be identified from the name; not researched (spend under $5K).|Terminate|@unknown|L
+The Cook Kitchen|G&A|Food outlet.|Terminate|@meal
+Australian Taxation Office (Ato)|Finance|Australian tax authority.|Optimize|Tax payment, not a vendor. Recode to tax accounts; nothing to negotiate.
+Capitol Services|Legal|US registered agent and corporate filing services.|Consolidate|@cosec
+Bonus Opinio D.O.O.|G&A|Croatian supplier: could not be identified from the name; not researched (spend under $5K).|Terminate|@unknown|L
+Dhl Express (Uk) Ltd|Facilities|Courier and express delivery (UK).|Consolidate|@courier
+Kat'S Kitchen D.O.O.|G&A|Food outlet in Croatia.|Terminate|@meal
+Soho Kitchen Ltd|G&A|Restaurant in London.|Terminate|@meal
+Fortis Trade J.D.O.O.|G&A|Croatian supplier: could not be identified from the name; not researched (spend under $5K).|Terminate|@unknown|L
+Till Trade D.O.O.|G&A|Croatian supplier: could not be identified from the name; not researched (spend under $5K).|Terminate|@unknown|L
+Pret A Manger|G&A|Sandwich and coffee chain.|Terminate|@meal
+Axil Coffee Roasters|G&A|Melbourne café.|Terminate|@meal
+Pepco Croatia D.O.O.|Facilities|Discount retailer: office sundries.|Terminate|@tail
+Lemia D.O.O.|G&A|Croatian supplier: could not be identified from the name; not researched (spend under $5K).|Terminate|@unknown|L
+Retriever Llc|G&A|Supplier: could not be identified from the name; not researched (spend under $5K).|Terminate|@unknown|L
+Meluba Limited|G&A|Supplier: could not be identified from the name; not researched (spend under $5K).|Terminate|@unknown|L
+London Waste Management|Facilities|Office waste collection in London.|Optimize|Check whether this is already included in the serviced office fee.
+Hilton Garden Inn - Zagreb City Hotels D.O.O.|G&A|Hotel in Zagreb: accommodation.|Consolidate|@travel
+Lider Media D.O.O.|G&A|Croatian business magazine: subscription.|Terminate|Non-essential subscription. Cancel.
+Uptime Robot Service Provider Ltd|Engineering|Website uptime monitoring.|Consolidate|@monitoring
+Mithras Consultants|G&A|Indian consultancy: could not be identified from the name; not researched (spend under $5K).|Terminate|@unknown|L
+6Sense Insights Inc|Marketing|Account-based marketing and buyer intent data platform.|Consolidate|Overlaps with the sales-intelligence tools Cognism and Lusha on buyer-intent data. Keep one.
+Ico|Legal|UK Information Commissioner's Office: annual data protection fee.|Optimize|@statutory
+Sportska Udruga Split|G&A|Sports association in Split: team activity.|Terminate|@event
+Prezzee|G&A|Digital gift cards.|Terminate|@gift
+Inet Telecoms Ltd.|Facilities|UK VoIP / business telephony.|Consolidate|@telecom
+Wolt Enterprises Oy|G&A|Food delivery app.|Terminate|@meal
+Platinum Office D.O.O.|Facilities|Croatian office supplies provider.|Consolidate|@supplies|M
+Snappy Snaps|Marketing|Photo and print shop.|Consolidate|@print
+New Block D.O.O.|G&A|Croatian supplier: could not be identified from the name; not researched (spend under $5K).|Terminate|@unknown|L
+Cayman Islands Government|Legal|Cayman Islands government: entity registration fees.|Optimize|Statutory fee. Worth asking whether the Cayman entity is still needed; dissolving it removes the fee and related filings.
+Officeworks|Facilities|Australian office supplies retailer.|Consolidate|@supplies
+Click Send Pty Ltd|Engineering|SMS / messaging gateway API.|Optimize|Pay-as-you-go. No action.
+Kall Kwik Centre 565|Marketing|Print and copy shop (UK).|Consolidate|@print
+Shilton Hospitality Llp|G&A|Indian hotel operator: accommodation.|Consolidate|@travel
+Axosoft Gitkraken|Engineering|Git GUI client.|Terminate|Single licence duplicated by free tools and JetBrains IDEs. Cancel.
+Istra Wine|G&A|Wine retailer (gifts).|Terminate|@gift
+Gophr|Facilities|Same-day courier service (UK).|Consolidate|@courier
+Pan-Pek D.O.O.|G&A|Croatian bakery chain.|Terminate|@meal
+Uber *Eats|G&A|Food delivery.|Terminate|@meal
+Fedex Express Uk Transportation Ltd|Facilities|Courier and express delivery.|Consolidate|@courier
+Garden City D.O.O.|G&A|Croatian supplier: could not be identified from the name; not researched (spend under $5K).|Terminate|@unknown|L
+Livingstone|G&A|Supplier: could not be identified from the name; not researched (spend under $5K).|Terminate|@unknown|L
+Ekupi D.O.O.|G&A|Croatian online electronics retailer.|Consolidate|@hardware
+Farmacia - Specijalizirana Prodavaonica D.O.O.|Facilities|Pharmacy retailer: first-aid supplies.|Terminate|@tail
+Cupcake Central (Life Is Sweet Bakery)|G&A|Bakery in Melbourne.|Terminate|@meal
+Post Office Ltd|Facilities|UK postal services.|Consolidate|@courier
+Currys Pc World|G&A|UK consumer electronics retailer.|Consolidate|@hardware
+Brodomerkur D.D.|Facilities|Croatian hardware / tools retailer.|Terminate|@tail
+Sport Vision D.O.O.|G&A|Sports goods retailer.|Terminate|@gift
+Harissa D.O.O.|G&A|Restaurant in Croatia.|Terminate|@meal
+Specijalisticka Ordinacija Medicine Rada I Sporta Ina Kardos|G&A|Occupational and sports medicine clinic: employee medical exams.|Consolidate|@occmed
+Specijalisticka Ordinacija Medicine Rada Helena Blazic|G&A|Occupational medicine clinic: employee medical exams.|Consolidate|@occmed
+Ustanova Za Medicinu Rada I Sporta Dr. Novacki|G&A|Occupational and sports medicine clinic: employee medical exams.|Consolidate|@occmed
+M&S Simply Food|G&A|Grocery / food retailer.|Terminate|@meal
+Bakemono Bakers Melbourne|G&A|Bakery in Melbourne.|Terminate|@meal
+Coles|Facilities|Australian supermarket: office pantry.|Terminate|@tail

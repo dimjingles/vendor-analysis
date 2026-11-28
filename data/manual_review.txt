@@ -1,0 +1,31 @@
+# Consolidate rows with a rationale unique to that vendor, read by hand on 26 Nov 2026.
+# Each was confirmed to name its counterpart vendor on the list, or (Sage, Planful, Peakon,
+# PerformancePro) an assumed parent-company system, which the rationale states as an assumption.
+# qc.py fails if a row of this kind appears that is not listed here.
+Jensten Insurance Brokers
+Hr Solution International Gmbh
+4I Advisory Services
+Cloud Technology Solutions Ltd
+Sage Uk Limited
+Planful, Inc.
+Google Ireland Limited
+Care Health Insurance Company Limited
+Hrvatski Telekom D.D.
+Sodexo Svc India Private Limited
+Peakon Aps
+Plus Your Business Ltd
+4I Management Consulting Private Limited
+Shoff Darby Companies
+Performancepro
+Microsoft Ireland Operations Limited
+Icici Lombard Gic Ltd
+Amazon Web Services Inc.
+Telemach Hrvatska D.O.O.
+Australian Payroll Professionals Pty Ltd
+Crowe Horwath Revizija D.O.O.
+Gym4You D.O.O.
+Pluxee India Private Limited
+N S Shastri And Co
+Integrated Personnel Services
+Zapier Inc.
+6Sense Insights Inc
